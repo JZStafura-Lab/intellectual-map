@@ -1,0 +1,294 @@
+{
+“metadata”: {
+“version”: “1.0”,
+“created”: “2026-01-14”,
+“source”: “Goodreads library export”,
+“total_books”: 452
+},
+“reading_statistics”: {
+“total_read”: 380,
+“currently_reading”: 9,
+“to_read”: 63,
+“by_status”: {
+“read”: 380,
+“currently-reading”: 9,
+“to-read”: 63
+},
+“rating_distribution”: {
+“5_stars”: 89,
+“4_stars”: 142,
+“3_stars”: 45,
+“2_stars”: 5,
+“1_stars”: 1,
+“unrated”: 170
+},
+“average_rating”: 4.1,
+“median_rating”: 4.0
+},
+“temporal_patterns”: {
+“reading_bursts”: [
+{
+“period”: “2007-2008”,
+“books”: 45,
+“focus”: “Graduate school - foundations in philosophy, cognitive science”
+},
+{
+“period”: “2014-2015”,
+“books”: 85,
+“focus”: “Post-academia - maximalist fiction, contemporary theory”
+},
+{
+“period”: “2024-2025”,
+“books”: 92,
+“focus”: “Contemporary theory (Han, Fisher), noir fiction, micro-sociology”
+}
+],
+“quiet_periods”: [
+“2016-2023”
+]
+},
+“genre_breakdown”: {
+“philosophy”: {
+“count”: 90,
+“avg_rating”: 4.3,
+“subcategories”: {
+“continental”: 65,
+“analytic”: 15,
+“existential”: 10
+}
+},
+“fiction”: {
+“count”: 160,
+“avg_rating”: 4.0,
+“subcategories”: {
+“maximalist”: 35,
+“noir_crime”: 45,
+“literary”: 80
+}
+},
+“neuroscience_cognitive_science”: {
+“count”: 45,
+“avg_rating”: 4.2
+},
+“sociology”: {
+“count”: 35,
+“avg_rating”: 4.1
+},
+“non_fiction_other”: {
+“count”: 55,
+“avg_rating”: 3.9
+},
+“literary_criticism”: {
+“count”: 25,
+“avg_rating”: 4.0
+}
+},
+“author_frequency”: {
+“most_read_authors”: [
+{
+“author”: “Thomas Pynchon”,
+“books”: 7,
+“avg_rating”: 4.7
+},
+{
+“author”: “William T. Vollmann”,
+“books”: 10,
+“avg_rating”: 4.2
+},
+{
+“author”: “Steven Pinker”,
+“books”: 4,
+“avg_rating”: 3.8
+},
+{
+“author”: “Michel Houellebecq”,
+“books”: 7,
+“avg_rating”: 4.0
+},
+{
+“author”: “Joan Didion”,
+“books”: 4,
+“avg_rating”: 5.0
+},
+{
+“author”: “Richard Price”,
+“books”: 6,
+“avg_rating”: 4.0
+},
+{
+“author”: “William S. Burroughs”,
+“books”: 8,
+“avg_rating”: 3.9
+},
+{
+“author”: “Daniel C. Dennett”,
+“books”: 5,
+“avg_rating”: 4.2
+},
+{
+“author”: “Douglas R. Hofstadter”,
+“books”: 4,
+“avg_rating”: 4.5
+},
+{
+“author”: “Peter Sloterdijk”,
+“books”: 4,
+“avg_rating”: 5.0
+}
+]
+},
+“notable_patterns”: {
+“complete_series”: [
+“Peter Sloterdijk - Spheres trilogy (all 5 stars)”,
+“Eugene Thacker - Horror of Philosophy trilogy”,
+“Don Winslow - Power of the Dog trilogy”,
+“William S. Burroughs - Nova trilogy”
+],
+“incomplete_series”: [
+“Karl Ove Knausgård - Morgenstjernen trilogy (have #1 and #3 on to-read, missing #2)”
+],
+“stuck_books”: [
+{
+“title”: “Parallel Stories”,
+“author”: “Péter Nádas”,
+“status”: “currently-reading since 2014”
+},
+{
+“title”: “The Tunnel”,
+“author”: “William H. Gass”,
+“status”: “currently-reading since 2014”
+}
+],
+“harsh_ratings”: [
+{
+“title”: “Atlas Shrugged”,
+“author”: “Ayn Rand”,
+“rating”: 1,
+“note”: “Only 1-star rating in entire collection”
+},
+{
+“author”: “Malcolm Gladwell”,
+“pattern”: “Consistently rates 2 stars”,
+“books”: [“Freakonomics”, “Blink”, “The Tipping Point”, “Outliers”]
+}
+],
+“perfect_authors”: [
+{
+“author”: “Joan Didion”,
+“all_ratings”: 5,
+“books”: 4
+},
+{
+“author”: “Peter Sloterdijk”,
+“all_ratings”: 5,
+“books”: 4,
+“note”: “Spheres trilogy + others”
+}
+]
+},
+“intellectual_trajectory”: {
+“early_phase”: {
+“period”: “2007-2008”,
+“focus”: “Foundations”,
+“key_areas”: [
+“Philosophy of mind”,
+“Cognitive science”,
+“Evolutionary psychology”,
+“Language”
+],
+“representative_works”: [
+“Consciousness Explained (Dennett)”,
+“GEB (Hofstadter)”,
+“The Language Instinct (Pinker)”
+]
+},
+“middle_phase”: {
+“period”: “2014-2015”,
+“focus”: “Expansion and synthesis”,
+“key_areas”: [
+“Maximalist fiction”,
+“Continental philosophy”,
+“Crime as sociology”
+],
+“representative_works”: [
+“Infinite Jest (Wallace)”,
+“2666 (Bolaño)”,
+“Spheres trilogy (Sloterdijk)”
+]
+},
+“current_phase”: {
+“period”: “2024-2025”,
+“focus”: “Contemporary theory and micro-sociology”,
+“key_areas”: [
+“Late capitalism critique (Han, Fisher)”,
+“Micro-sociology of violence (Collins)”,
+“Contemporary noir”,
+“Weird theory (Thacker)”
+],
+“representative_works”: [
+“Violence (Collins)”,
+“Capitalist Realism (Fisher)”,
+“Horror of Philosophy trilogy (Thacker)”
+]
+}
+},
+“cross_cutting_themes”: {
+“violence_across_genres”: [
+“Theoretical: Collins, Fanon”,
+“Ethnographic: Stuart, Simon”,
+“Fiction: Winslow, Price, Ellroy”
+],
+“place_space_across_genres”: [
+“Philosophical: Sloterdijk, Bachelard, Walter”,
+“Fiction: Your noir is deeply place-based”,
+“To-read: Lefebvre, Harvey”
+],
+“consciousness_self”: [
+“Neuroscience: Damasio, Dehaene, Kandel”,
+“Philosophy: Dennett, Hofstadter, Sartre”,
+“Psychoanalysis: Freud, implied Lacan through Žižek”
+]
+},
+“gaps_identified”: {
+“methodological”: [
+“Ethnographic methods (no Geertz, Clifford)”,
+“Bayesian statistics”,
+“Digital/computational methods”,
+“Network analysis literature”
+],
+“theoretical”: [
+“Critical race theory (Wynter, Hartman, Moten)”,
+“Feminist theory beyond de Beauvoir”,
+“Disability studies”,
+“Postcolonial theory beyond Said”
+],
+“disciplinary”: [
+“Classical sociology (Durkheim, Weber in depth)”,
+“Economic sociology”,
+“Science and Technology Studies”,
+“Organizational theory”
+],
+“temporal”: [
+“Phenomenology of time (Husserl, Heidegger)”,
+“Historical theory (Koselleck, Hartog)”,
+“Chronic illness/altered temporalities”
+]
+},
+“next_reads_prioritized”: {
+“immediate”: [
+“Interaction Ritual Chains (Collins) - complete current Violence reading”,
+“Reassembling the Social (Latour) - switch from stalled Modes book”,
+“The Ego Tunnel (Metzinger) - consciousness synthesis”
+],
+“fill_gaps”: [
+“The Production of Space (Lefebvre) - foundational for spatial thinking”,
+“Politics of Collective Violence (Tilly) - extends Collins historically”,
+“Monadology and Sociology (Tarde) - unlocks network thinking”
+],
+“expand_horizons”: [
+“Our Aesthetic Categories (Ngai) - contemporary theory + culture”,
+“The Psychic Life of Power (Butler) - self + structure”,
+“Waking, Dreaming, Being (Thompson) - consciousness + Buddhism”
+]
+}
+}
