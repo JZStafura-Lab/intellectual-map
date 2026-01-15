@@ -1,0 +1,11 @@
+Python
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+Jupyter
+.ipynb_checkpoints/
