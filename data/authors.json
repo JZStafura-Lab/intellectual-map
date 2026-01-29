@@ -1,0 +1,42 @@
+{
+  "Sloterdijk": {
+    "full_name": "Peter Sloterdijk",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Sloterdijk",
+    "wikipedia_page_id": "Peter_Sloterdijk"
+  },
+  "Foucault": {
+    "full_name": "Michel Foucault",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Michel_Foucault",
+    "wikipedia_page_id": "Michel_Foucault"
+  },
+  "Pynchon": {
+    "full_name": "Thomas Pynchon",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Pynchon",
+    "wikipedia_page_id": "Thomas_Pynchon"
+  },
+  "Dennett": {
+    "full_name": "Daniel Dennett",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Dennett",
+    "wikipedia_page_id": "Daniel_Dennett"
+  },
+  "Wallace": {
+    "full_name": "David Foster Wallace",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Foster_Wallace",
+    "wikipedia_page_id": "David_Foster_Wallace"
+  },
+  "Didion": {
+    "full_name": "Joan Didion",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Joan_Didion",
+    "wikipedia_page_id": "Joan_Didion"
+  },
+  "Zizek": {
+    "full_name": "Slavoj Žižek",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Slavoj_%C5%BDi%C5%BEek",
+    "wikipedia_page_id": "Slavoj_Žižek"
+  },
+  "Collins": {
+    "full_name": "Randall Collins",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Randall_Collins",
+    "wikipedia_page_id": "Randall_Collins"
+  }
+}

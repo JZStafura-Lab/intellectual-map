@@ -10,7 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
-    
+
+    <!-- Author Cards Styles -->
+    <link rel="stylesheet" href="/css/author-cards.css">
+
     <style>
         :root {
             --color-bg: #0d0d0d;
@@ -475,17 +478,61 @@
                     <h2 class="section-title">Thinkers who span multiple domains</h2>
                 </div>
                 <div class="bridge-list">
-                    <span class="bridge-author">Sloterdijk</span>
-                    <span class="bridge-author">Foucault</span>
-                    <span class="bridge-author">Pynchon</span>
-                    <span class="bridge-author">Dennett</span>
-                    <span class="bridge-author">Wallace</span>
-                    <span class="bridge-author">Didion</span>
-                    <span class="bridge-author">Žižek</span>
-                    <span class="bridge-author">Collins</span>
+                    <a href="#" class="bridge-author bridge-author-link" data-author="Sloterdijk" title="Peter Sloterdijk - Place/Space → Social Structure, Self/Subject">Sloterdijk</a>
+                    <a href="#" class="bridge-author bridge-author-link" data-author="Foucault" title="Michel Foucault - Social Structure → Self/Subject, Place/Space">Foucault</a>
+                    <a href="#" class="bridge-author bridge-author-link" data-author="Pynchon" title="Thomas Pynchon - Aesthetic Experience → Language, Social Structure, Temporality">Pynchon</a>
+                    <a href="#" class="bridge-author bridge-author-link" data-author="Dennett" title="Daniel Dennett - Consciousness → Language, Self/Subject">Dennett</a>
+                    <a href="#" class="bridge-author bridge-author-link" data-author="Wallace" title="David Foster Wallace - Aesthetic Experience → Self/Subject, Language">Wallace</a>
+                    <a href="#" class="bridge-author bridge-author-link" data-author="Didion" title="Joan Didion - Aesthetic Experience → Place/Space, Self/Subject">Didion</a>
+                    <a href="#" class="bridge-author bridge-author-link" data-author="Zizek" title="Slavoj Žižek - Self/Subject → Social Structure, Aesthetic Experience">Žižek</a>
+                    <a href="#" class="bridge-author bridge-author-link" data-author="Collins" title="Randall Collins - Violence → Social Structure">Collins</a>
                 </div>
             </div>
         </section>
+
+        <!-- Author Detail Modal -->
+        <div class="author-modal-overlay">
+            <div class="author-modal">
+                <button class="author-modal-close" aria-label="Close modal">&times;</button>
+
+                <div class="author-modal-header">
+                    <h2>Author Name</h2>
+                    <a href="#" class="author-wikipedia-link" target="_blank" rel="noopener noreferrer">
+                        View on Wikipedia
+                    </a>
+                </div>
+
+                <div class="author-modal-body">
+                    <div class="author-biography">
+                        <h3>Biography</h3>
+                        <p>Loading...</p>
+                    </div>
+
+                    <div class="author-metadata">
+                        <div class="author-metadata-section">
+                            <h3>Key Works</h3>
+                            <ul class="author-works">
+                                <li>Work 1</li>
+                            </ul>
+                        </div>
+
+                        <div class="author-metadata-section">
+                            <h3>Domains</h3>
+                            <div class="author-domains">
+                                <!-- Domain badges will be inserted here -->
+                            </div>
+                        </div>
+
+                        <div class="author-metadata-section">
+                            <h3>Related Authors</h3>
+                            <div class="related-authors-list">
+                                <!-- Related author cards will be inserted here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section class="about">
             <div class="container">
@@ -532,5 +579,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- Author Cards JavaScript -->
+    <script src="/js/author-cards.js"></script>
 </body>
 </html>
