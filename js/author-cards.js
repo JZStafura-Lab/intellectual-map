@@ -31,17 +31,19 @@
     }
 
     async function loadAuthorsData() {
-        const response = await fetch('/data/authors.json');
+        const response = await fetch('./data/authors.json');
         if (!response.ok) throw new Error('Failed to load authors data');
         authorsData = await response.json();
+        console.log('Loaded authors:', Object.keys(authorsData));
     }
 
     async function loadProblemCategories() {
-        const response = await fetch('/data/processed/problem_categories.json');
+        const response = await fetch('./data/processed/problem_categories.json');
         if (!response.ok) throw new Error('Failed to load problem categories');
         const data = await response.json();
         // Extract the key_bridge_authors section which has the structure we need
         problemCategories = data.key_bridge_authors;
+        console.log('Loaded problem categories for:', Object.keys(problemCategories));
     }
 
     function setupModalListeners() {
@@ -85,10 +87,12 @@
             return;
         }
 
+        console.log('Opening modal for:', authorKey, author);
         currentAuthor = authorKey;
 
         // Find author's category data
         const categoryData = findAuthorCategory(authorKey);
+        console.log('Category data:', categoryData);
 
         // Populate modal
         populateModalHeader(author);
