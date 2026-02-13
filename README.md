@@ -2,7 +2,7 @@
 
 > Interactive visualization of 450+ books organized by core intellectual problems rather than traditional academic disciplines
 
-**[View Live Project →](https://jzstafura.github.io/intellectual-map/)**
+**[View Live Project →](https://jzstafura-lab.github.io/intellectual-map/)**
 
 ## Overview
 
@@ -151,10 +151,10 @@ MIT License - see [LICENSE](LICENSE) file for details
 ## Author
 
 **Joseph Z. Stafura**
-- [GitHub](https://github.com/jzstafura)
+- [GitHub](https://github.com/JZStafura-Lab)
 - [Google Scholar](https://scholar.google.com/citations?user=F6LcYIoAAAAJ&hl=en)
 - [LinkedIn](https://www.linkedin.com/in/jzstafura)
 
 ---
 
-Built with Python, NetworkX, Plotly, and vanilla JavaScript • [View Project](https://jzstafura.github.io/intellectual-map/)
+Built with Python, NetworkX, Plotly, and vanilla JavaScript • [View Project](https://jzstafura-lab.github.io/intellectual-map/)
