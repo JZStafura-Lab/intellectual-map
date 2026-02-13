@@ -151,7 +151,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 ## Author
 
 **Joseph Z. Stafura**
-- [GitHub](https://github.com/jzstafura)
+- [GitHub](https://github.com/JZStafura-Lab)
 - [Google Scholar](https://scholar.google.com/citations?user=F6LcYIoAAAAJ&hl=en)
 - [LinkedIn](https://www.linkedin.com/in/jzstafura)
 
